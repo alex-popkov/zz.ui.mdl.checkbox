@@ -1,6 +1,6 @@
 {
 	"name": "zz.ui.mdl.checkbox",
-	"version": "20160421.0.0",
+	"version": "20160422.0.0",
 	"description": "module checkbox for zz project",
 	"author": {
 		"name": "Popkov Alexander",
@@ -17,6 +17,8 @@
 	},
 	"dependencies": {
 
-	    "imazzine-developer-kit": ""
+	    "imazzine-developer-kit": "",
+		"zz.ui.mdl": "",
+		"zz.ui.mdl.ripple": ""
 	}
 }
