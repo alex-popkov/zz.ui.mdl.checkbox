@@ -10,6 +10,16 @@
  * @author popkov.aleksander@gmail.com (Popkov Alexander)
  */
 /**
+ * @fileoverview zz.ui.mdl main stylesheets files.
+ * @license Apache-2.0
+ * @author popkov.aleksander@gmail.com (Popkov Alexander)
+ */
+/**
+ * @fileoverview zz.ui.mdl related modules stylesheets dependencies.
+ * @license Apache-2.0
+ * @author popkov.aleksander@gmail.com (Popkov Alexander)
+ */
+/**
  * Copyright 2015 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -4459,17 +4469,17 @@ input.mdl-button[type="submit"] {
   left: 0;
   height: 100%;
   width: 100%;
-  mask: url("/resources/images/tick-mask.svg?embed");
+  mask: url("/lib/resources/images/tick-mask.svg?embed");
   background: transparent;
   transition-duration: 0.28s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background; }
 
 .mdl-checkbox.is-checked .mdl-checkbox__tick-outline {
-  background: #3f51b5 url("/resources/images/tick.svg?embed"); }
+  background: #3f51b5 url("/lib/resources/images/tick.svg?embed"); }
 
 .mdl-checkbox.is-checked.is-disabled .mdl-checkbox__tick-outline {
-  background: rgba(0, 0, 0, 0.26) url("/resources/images/tick.svg?embed"); }
+  background: rgba(0, 0, 0, 0.26) url("/lib/resources/images/tick.svg?embed"); }
 
 .mdl-checkbox__label {
   position: relative;
@@ -9607,3 +9617,24 @@ iframe.heightSet {
 
 .demo-wrapper iframe {
   border: 1px solid rgba(0, 0, 0, 0.5); }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(/lib/resources/fonts/iconfont/MaterialIcons-Regular.woff2) format("woff2"); }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased; }
